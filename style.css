@@ -358,6 +358,9 @@ span {
         padding: 150px 20px;
         justify-content: center;
     }
+    .main h2 {
+        margin: 215px 100px 0px 0px;
+    }
     .contact .info p a {
         font-size: 0.8em;
     }
