@@ -271,6 +271,10 @@ span {
     font-size: 2em;
     padding: 0 15px 0 0;
 }
+abbr {
+    color: #ffcc00;
+    text-decoration: none;
+}
 
 @media (max-width:1024px) {
     body {
@@ -309,7 +313,11 @@ span {
         font-size: 1em;
     }
 }
-
+@media (max-width:740px) {
+    .main h2 {
+        margin-top: -170px;
+    }
+}
 @media (max-width:500px) {
     header {
         padding: 0px 20px
@@ -332,7 +340,7 @@ span {
     .main {
         padding: 50px 100px 0px 100px;
     }
-    .main 2 {
+    .main h2 {
         padding: 290px 0px 0px 0px;
     }
     .main h3 {
@@ -362,10 +370,13 @@ span {
         justify-content: center;
     }
     .main {
-       padding: 10px 0px 0px 80px;
+       padding: 55px 0px 0px 0px;
     }
     .main h2 {
-       padding: 130px 0px 0px 80px;
+       padding: 130px 0px 0px 10px;
+    }
+    .main h3 {
+       padding: 0px 0px 0px 15px;
     }
     .contact .info p a {
         font-size: 0.8em;
@@ -391,7 +402,7 @@ span {
         justify-content: center;
     }
     .main h2 {
-        margin-top: 100px;
+        margin-top: 50px;
     }
     .contact .info p a {
         font-size: 0.8em;
