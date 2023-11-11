@@ -330,7 +330,10 @@ span {
         justify-content: center;
     }
     .main {
-        padding: 40px;
+        padding: 50px 100px 0px 100px;
+    }
+    .main 2 {
+        padding: 290px 0px 0px 0px;
     }
     .main h3 {
         word-spacing: -5px;
