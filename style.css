@@ -361,6 +361,9 @@ span {
         padding: 150px 20px;
         justify-content: center;
     }
+    .main {
+       padding: 10px 0px 0px 80px;
+    }
     .main h2 {
        padding: 10px 0px 0px 80px;
     }
