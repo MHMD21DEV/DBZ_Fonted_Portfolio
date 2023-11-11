@@ -359,7 +359,7 @@ span {
         justify-content: center;
     }
     .main h2 {
-        margin: 20px 0px 0px 0px;
+       padding: 20px;
     }
     .contact .info p a {
         font-size: 0.8em;
